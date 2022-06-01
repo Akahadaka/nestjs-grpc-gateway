@@ -1,3 +1,7 @@
 # [Choice] Node.js version: 10, 12, 14
-ARG VARIANT=14
-FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:${VARIANT}
+#ARG VARIANT=14
+#FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:${VARIANT}
+
+# [Choice] Ubuntu version (ues hirsute for Arm64/Apple Silicon): hirsute, focal, bionic
+ARG VARIANT="focal"
+FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
