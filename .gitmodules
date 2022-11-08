@@ -1,0 +1,6 @@
+[submodule "src/protobufs"]
+	path = src/protobufs
+	url = https://github.com/Akahadaka/nestjs-grpc-protobufs.git
+[submodule "protobufs"]
+	path = protobufs
+	url = https://github.com/Akahadaka/nestjs-grpc-protobufs.git
